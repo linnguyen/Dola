@@ -2,3 +2,5 @@
 heroku pg:reset DATABASE
 heroku run rails db:migrate
 heroku run rails db:seed
+# IDEA
+Should export to file txt for storage
