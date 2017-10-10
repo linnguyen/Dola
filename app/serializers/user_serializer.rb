@@ -1,5 +1,5 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :email
+  attributes :id, :email, :auth_token
 
-  has_many :payments
+  # has_many :payments
 end
