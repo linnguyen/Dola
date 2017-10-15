@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 # Api gems
 gem 'active_model_serializers'
 gem 'listen', '~> 3.0.5'
+# Firebase cloud message gem
+gem 'fcm'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
