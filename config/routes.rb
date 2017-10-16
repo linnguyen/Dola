@@ -8,6 +8,7 @@ Rails.application.routes.draw do
            end
            resources :payments, :only => [:index, :show]
            resources :sessions, :only => [:create, :destroy]
+           resources :firebases, :only => [:index]
        end
 	end
 end
