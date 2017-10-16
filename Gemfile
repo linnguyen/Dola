@@ -35,9 +35,9 @@ gem 'jbuilder', '~> 2.5'
 # Api gems
 gem 'active_model_serializers'
 gem 'listen', '~> 3.0.5'
-# Firebase cloud message gem
+# Firebase cloud message
 gem 'fcm'
-
+gem 'rufus-scheduler', '~> 3.4', '>= 3.4.2'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

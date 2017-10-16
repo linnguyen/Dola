@@ -1,4 +1,4 @@
-# For Heroku command
+# FOR HEROKU COMMAND
 heroku pg:reset DATABASE
 heroku run rails db:migrate
 heroku run rails db:seed
@@ -6,3 +6,7 @@ heroku run rails db:seed
 # IDEA
 Should export to file txt for storage
 Server will set a schedule for summary report using FCM (Now, the report should be delivered weekly)
+# MATERIAL
+This for scheduling a rails task:
+https://stackoverflow.com/questions/22313778/can-i-schedule-controller-methods-in-rails-using-rufus-scheduler
+
