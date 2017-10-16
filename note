@@ -1,9 +1,10 @@
-# For Heroku command
+# FOR HEROKU COMMAND
 heroku pg:reset DATABASE
 heroku run rails db:migrate
 heroku run rails db:seed
-<<<<<<< HEAD
-=======
 # IDEA
 Should export to file txt for storage
 >>>>>>> 1ba1b4cf01965e5cd9160378e0c227956dc06c2f
+# MATERIAL
+This for scheduling a rails task:
+https://stackoverflow.com/questions/22313778/can-i-schedule-controller-methods-in-rails-using-rufus-scheduler
