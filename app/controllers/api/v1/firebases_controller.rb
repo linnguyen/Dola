@@ -6,7 +6,7 @@ class Api::V1::FirebasesController < ApplicationController
 		scheduler.every '5s' do
 
 		fcm = FCM.new("AAAAfdAheBM:APA91bGy4_wmaiEbJQ2z8IdSiu7bxor5lwVhwook4whY98ovJZwWqOhEPItO9T-n0ag0B8f_ikJfVOvD3pZ4t3yPz-QbE6tF5FkLm3BlxB-M6VtbnVB53P8SQYlEafqUMXuAY5dkeuYS", :timeout => 30)
-		registration_ids = ["eHHoriDoC3E:APA91bGHI0UFjKYRmseU_lTCEzs1EHZyEODcHuHBKChDAEmwyCK0JrZKykFK-2HifqRi-LdZhyiJU-nSVgN3-IOb9Od90sSMlGt0j9dnoYq_IObiLNJjovnkiR6-MRrJeoNAZOqA2d2e"]
+		registration_ids = ["de3CPURUE4Q:APA91bGoB9nqni4nt1qeU5eJ-pbdW-galF7JEvL_nXgSSFmynhCbXnou4dyZWGNqvpGfxoU-zl3X8GH6Euhc7-QwCi8On9twDs4Leqyu1NNApmYR81E5vahr7B29tqaMRMT2A7STqrF6"]
         options = {data: {
         	               message: "I am Data Message" }, 
                    notification: {
