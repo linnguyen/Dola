@@ -1,4 +1,4 @@
-require 'rufus-scheduler'
+# require 'rufus-scheduler'
 
 # scheduler = Rufus::Scheduler.new
 
@@ -14,4 +14,4 @@ require 'rufus-scheduler'
 #         }
 #         response = fcm.send(registration_ids, options)
 #         render json: response
-end
+# end
