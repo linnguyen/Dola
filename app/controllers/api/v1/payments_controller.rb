@@ -1,13 +1,9 @@
 class Api::V1::PaymentsController < ApplicationController
-	before_action :authenticate_with_token!, only: [:create, :update]
+	before_action :authenticate_with_token! # only: [:create, :update,]
 	respond_to :json
 
 	def index
-		respond_with Payment.all
-	end
-
-	def show
-		respond_with Payment.find(params[:id])
+		respond_with current_user.payments.all
 	end
 
 	def create
