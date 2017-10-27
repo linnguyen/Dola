@@ -8,6 +8,7 @@ class User < ApplicationRecord
 
   has_many :payments, dependent: :destroy
   has_many :debts, dependent: :destroy
+  has_many :incomes, dependent: :destroy
 
   def generate_authentication_token!
   	begin
