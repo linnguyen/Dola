@@ -5,8 +5,6 @@ heroku pg:reset DATABASE
 heroku run rails db:migrate
 heroku run rails db:seed
 
-
-
 Create a model -> rails generate model Micropost content:text user:references
 
 # IDEA
@@ -16,4 +14,8 @@ Server will set a schedule for summary report using FCM (Now, the report should 
 # MATERIAL
 This for scheduling a rails task:
 https://stackoverflow.com/questions/22313778/can-i-schedule-controller-methods-in-rails-using-rufus-scheduler
+
+#TODO
+
+-List of user could be displayed via URL with no authentication (!) 
 
