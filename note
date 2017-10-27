@@ -1,7 +1,11 @@
-# FOR HEROKU COMMAND
+# COMMAND
+* Heroku command:
+
 heroku pg:reset DATABASE
 heroku run rails db:migrate
 heroku run rails db:seed
+
+
 
 Create a model -> rails generate model Micropost content:text user:references
 
